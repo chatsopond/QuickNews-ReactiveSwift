@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
+// swiftlint:disable:next type_name attributes
 struct QuickNews_ReactiveSwiftApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }

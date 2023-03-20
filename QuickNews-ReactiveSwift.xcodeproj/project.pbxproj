@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B77867C29C8372A006BB702 /* QuickNews_ReactiveSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77867B29C8372A006BB702 /* QuickNews_ReactiveSwiftApp.swift */; };
+		6B77867C29C8372A006BB702 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77867B29C8372A006BB702 /* App.swift */; };
 		6B77867E29C8372A006BB702 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77867D29C8372A006BB702 /* ContentView.swift */; };
 		6B77868029C8372B006BB702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B77867F29C8372B006BB702 /* Assets.xcassets */; };
 		6B77868329C8372B006BB702 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B77868229C8372B006BB702 /* Preview Assets.xcassets */; };
+		6B77868B29C83773006BB702 /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77868A29C83773006BB702 /* URLRequest+Extension.swift */; };
+		6B77868E29C8379E006BB702 /* ReactiveSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6B77868D29C8379E006BB702 /* ReactiveSwift */; };
+		6B77869229C840F3006BB702 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77869129C840F3006BB702 /* Article.swift */; };
+		6B77869729C841B4006BB702 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77869629C841B4006BB702 /* ArticleListViewModel.swift */; };
+		6B77869929C843A4006BB702 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77869829C843A4006BB702 /* K.swift */; };
+		6B77869C29C8440A006BB702 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77869B29C8440A006BB702 /* ArticleListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B77867829C8372A006BB702 /* QuickNews-ReactiveSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuickNews-ReactiveSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B77867B29C8372A006BB702 /* QuickNews_ReactiveSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNews_ReactiveSwiftApp.swift; sourceTree = "<group>"; };
+		6B77867B29C8372A006BB702 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		6B77867D29C8372A006BB702 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B77867F29C8372B006BB702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B77868229C8372B006BB702 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B77868A29C83773006BB702 /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
+		6B77869129C840F3006BB702 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		6B77869629C841B4006BB702 /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		6B77869829C843A4006BB702 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		6B77869B29C8440A006BB702 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B77868E29C8379E006BB702 /* ReactiveSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,7 +47,11 @@
 		6B77866F29C8372A006BB702 = {
 			isa = PBXGroup;
 			children = (
-				6B77867A29C8372A006BB702 /* QuickNews-ReactiveSwift */,
+				6B77869A29C843FD006BB702 /* View */,
+				6B77869329C84106006BB702 /* View Model */,
+				6B77869029C840E3006BB702 /* Model */,
+				6B77868929C83752006BB702 /* Extension */,
+				6B77867A29C8372A006BB702 /* App */,
 				6B77867929C8372A006BB702 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +64,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B77867A29C8372A006BB702 /* QuickNews-ReactiveSwift */ = {
+		6B77867A29C8372A006BB702 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				6B77867B29C8372A006BB702 /* QuickNews_ReactiveSwiftApp.swift */,
+				6B77867B29C8372A006BB702 /* App.swift */,
 				6B77867D29C8372A006BB702 /* ContentView.swift */,
 				6B77867F29C8372B006BB702 /* Assets.xcassets */,
 				6B77868129C8372B006BB702 /* Preview Content */,
 			);
-			path = "QuickNews-ReactiveSwift";
+			path = App;
 			sourceTree = "<group>";
 		};
 		6B77868129C8372B006BB702 /* Preview Content */ = {
@@ -67,6 +83,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6B77868929C83752006BB702 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6B77868A29C83773006BB702 /* URLRequest+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6B77869029C840E3006BB702 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B77869129C840F3006BB702 /* Article.swift */,
+				6B77869829C843A4006BB702 /* K.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B77869329C84106006BB702 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B77869629C841B4006BB702 /* ArticleListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		6B77869A29C843FD006BB702 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B77869B29C8440A006BB702 /* ArticleListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +123,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B77868629C8372B006BB702 /* Build configuration list for PBXNativeTarget "QuickNews-ReactiveSwift" */;
 			buildPhases = (
+				6B77868F29C837CE006BB702 /* ShellScript */,
 				6B77867429C8372A006BB702 /* Sources */,
 				6B77867529C8372A006BB702 /* Frameworks */,
 				6B77867629C8372A006BB702 /* Resources */,
@@ -83,6 +133,9 @@
 			dependencies = (
 			);
 			name = "QuickNews-ReactiveSwift";
+			packageProductDependencies = (
+				6B77868D29C8379E006BB702 /* ReactiveSwift */,
+			);
 			productName = "QuickNews-ReactiveSwift";
 			productReference = 6B77867829C8372A006BB702 /* QuickNews-ReactiveSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 6B77866F29C8372A006BB702;
+			packageReferences = (
+				6B77868C29C8379E006BB702 /* XCRemoteSwiftPackageReference "ReactiveSwift" */,
+			);
 			productRefGroup = 6B77867929C8372A006BB702 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,13 +188,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B77868F29C837CE006BB702 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH=/opt/homebrew/bin:$PATH\nif [ -f ~/com.raywenderlich.swiftlint.yml ]; then\n  if which swiftlint >/dev/null; then\n    swiftlint --no-cache --config ~/com.raywenderlich.swiftlint.yml\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B77867429C8372A006BB702 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B77869229C840F3006BB702 /* Article.swift in Sources */,
+				6B77869929C843A4006BB702 /* K.swift in Sources */,
+				6B77869729C841B4006BB702 /* ArticleListViewModel.swift in Sources */,
+				6B77869C29C8440A006BB702 /* ArticleListView.swift in Sources */,
 				6B77867E29C8372A006BB702 /* ContentView.swift in Sources */,
-				6B77867C29C8372A006BB702 /* QuickNews_ReactiveSwiftApp.swift in Sources */,
+				6B77868B29C83773006BB702 /* URLRequest+Extension.swift in Sources */,
+				6B77867C29C8372A006BB702 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"QuickNews-ReactiveSwift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = HB4FTR388G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +377,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"QuickNews-ReactiveSwift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = HB4FTR388G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -339,6 +421,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6B77868C29C8379E006BB702 /* XCRemoteSwiftPackageReference "ReactiveSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveCocoa/ReactiveSwift";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6B77868D29C8379E006BB702 /* ReactiveSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B77868C29C8379E006BB702 /* XCRemoteSwiftPackageReference "ReactiveSwift" */;
+			productName = ReactiveSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6B77867029C8372A006BB702 /* Project object */;
 }
