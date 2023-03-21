@@ -11,10 +11,10 @@ struct APIListView: View {
   @StateObject var viewModel = APIListViewModel()
   var body: some View {
     NavigationStack {
-      List(viewModel.responses) { response in
-        Text(response.result ?? "No Result")
+      List(viewModel.sampleAPIResponseViewModels) { sampleViewModel in
+        SampleAPIResponseView(sampleViewModel)
       }
-      .animation(.default, value: viewModel.responses)
+      .animation(.default, value: viewModel.sampleAPIResponseViewModels)
       .navigationTitle("API Responses")
       .toolbar {
         ToolbarItem(placement: .primaryAction) {

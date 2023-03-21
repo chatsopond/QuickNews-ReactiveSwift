@@ -22,6 +22,8 @@
 		6B9510A429C980220043554F /* SampleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510A329C980220043554F /* SampleAPI.swift */; };
 		6B9510A629C9880C0043554F /* APIListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510A529C9880C0043554F /* APIListViewModel.swift */; };
 		6B9510A829C98CFA0043554F /* APIListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510A729C98CFA0043554F /* APIListView.swift */; };
+		6B9510AA29C9A8310043554F /* SampleAPIResponseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510A929C9A8310043554F /* SampleAPIResponseViewModel.swift */; };
+		6B9510AC29C9A91D0043554F /* SampleAPIResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510AB29C9A91D0043554F /* SampleAPIResponseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		6B9510A329C980220043554F /* SampleAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAPI.swift; sourceTree = "<group>"; };
 		6B9510A529C9880C0043554F /* APIListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIListViewModel.swift; sourceTree = "<group>"; };
 		6B9510A729C98CFA0043554F /* APIListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIListView.swift; sourceTree = "<group>"; };
+		6B9510A929C9A8310043554F /* SampleAPIResponseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAPIResponseViewModel.swift; sourceTree = "<group>"; };
+		6B9510AB29C9A91D0043554F /* SampleAPIResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAPIResponseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 			children = (
 				6B77869629C841B4006BB702 /* ArticleListViewModel.swift */,
 				6B9510A529C9880C0043554F /* APIListViewModel.swift */,
+				6B9510A929C9A8310043554F /* SampleAPIResponseViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			children = (
 				6B77869B29C8440A006BB702 /* ArticleListView.swift */,
 				6B9510A729C98CFA0043554F /* APIListView.swift */,
+				6B9510AB29C9A91D0043554F /* SampleAPIResponseView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -242,9 +248,11 @@
 				6B9510A829C98CFA0043554F /* APIListView.swift in Sources */,
 				6B77869929C843A4006BB702 /* K.swift in Sources */,
 				6B77869729C841B4006BB702 /* ArticleListViewModel.swift in Sources */,
+				6B9510AA29C9A8310043554F /* SampleAPIResponseViewModel.swift in Sources */,
 				6B9510A629C9880C0043554F /* APIListViewModel.swift in Sources */,
 				6B77869C29C8440A006BB702 /* ArticleListView.swift in Sources */,
 				6B77867E29C8372A006BB702 /* ContentView.swift in Sources */,
+				6B9510AC29C9A91D0043554F /* SampleAPIResponseView.swift in Sources */,
 				6B77868B29C83773006BB702 /* URLRequest+Extension.swift in Sources */,
 				6B9510A429C980220043554F /* SampleAPI.swift in Sources */,
 				6B77867C29C8372A006BB702 /* App.swift in Sources */,
