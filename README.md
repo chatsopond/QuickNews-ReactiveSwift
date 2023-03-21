@@ -1,5 +1,13 @@
 # SwiftNews-ReactiveSwift
 
+### Objective
+
+- [x] ReactiveSwift
+- [x] Moya
+- [ ] Realm
+- [ ] Starscream
+- [ ] Anchorage
+
 ### Project Progress
 
 - [v1.1 - Moya Integration](https://github.com/chatsopond/QuickNews-ReactiveSwift/releases/tag/v1.1)
