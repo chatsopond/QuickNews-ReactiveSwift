@@ -31,8 +31,7 @@ extension SampleAPI: TargetType {
     switch self {
     case .getTime:
       return "/now"
-      // swiftlint:disable:next empty_enum_arguments
-    case .getRandomInteger(_, _):
+    case .getRandomInteger:
       return "/randomInt"
     }
   }
@@ -40,8 +39,7 @@ extension SampleAPI: TargetType {
   /// The HTTP method for each case of the API.
   var method: Moya.Method {
     switch self {
-      // swiftlint:disable:next empty_enum_arguments
-    case .getTime, .getRandomInteger(_, _):
+    case .getTime, .getRandomInteger:
       return .get
     }
   }
@@ -51,8 +49,7 @@ extension SampleAPI: TargetType {
     switch self {
     case .getTime:
       return .requestPlain
-      // swiftlint:disable:next pattern_matching_keywords
-    case .getRandomInteger(let lowerBound, let upperBound):
+    case let .getRandomInteger(lowerBound, upperBound):
       return .requestParameters(parameters: ["min": lowerBound, "max": upperBound], encoding: URLEncoding.default)
     }
   }
