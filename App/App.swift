@@ -12,7 +12,7 @@ import SwiftUI
 struct QuickNews_ReactiveSwiftApp: App {
   var body: some Scene {
     WindowGroup {
-      APIListView()
+      ReminderListView()
     }
   }
 }

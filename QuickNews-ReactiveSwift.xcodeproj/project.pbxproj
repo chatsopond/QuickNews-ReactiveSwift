@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6B77867C29C8372A006BB702 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77867B29C8372A006BB702 /* App.swift */; };
-		6B77867E29C8372A006BB702 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77867D29C8372A006BB702 /* ContentView.swift */; };
 		6B77868029C8372B006BB702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B77867F29C8372B006BB702 /* Assets.xcassets */; };
 		6B77868329C8372B006BB702 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B77868229C8372B006BB702 /* Preview Assets.xcassets */; };
 		6B77868B29C83773006BB702 /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77868A29C83773006BB702 /* URLRequest+Extension.swift */; };
@@ -24,12 +23,20 @@
 		6B9510A829C98CFA0043554F /* APIListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510A729C98CFA0043554F /* APIListView.swift */; };
 		6B9510AA29C9A8310043554F /* SampleAPIResponseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510A929C9A8310043554F /* SampleAPIResponseViewModel.swift */; };
 		6B9510AC29C9A91D0043554F /* SampleAPIResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510AB29C9A91D0043554F /* SampleAPIResponseView.swift */; };
+		6B9510AF29CAB7EF0043554F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 6B9510AE29CAB7EF0043554F /* Realm */; };
+		6B9510B129CAB7EF0043554F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6B9510B029CAB7EF0043554F /* RealmSwift */; };
+		6B9510B429CAB8CC0043554F /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6B9510B329CAB8CC0043554F /* KeychainSwift */; };
+		6B9510B629CAB9260043554F /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510B529CAB9260043554F /* Reminder.swift */; };
+		6B9510B929CABAD20043554F /* ReminderEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510B829CABAD20043554F /* ReminderEditingView.swift */; };
+		6B9510BC29CABBED0043554F /* ReminderEditingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510BB29CABBED0043554F /* ReminderEditingViewModel.swift */; };
+		6B9510BE29CABC0B0043554F /* ReminderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510BD29CABC0B0043554F /* ReminderListViewModel.swift */; };
+		6B9510C129CABC540043554F /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510C029CABC540043554F /* Encryption.swift */; };
+		6B9510C329CAC1810043554F /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510C229CAC1810043554F /* ReminderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B77867829C8372A006BB702 /* QuickNews-ReactiveSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuickNews-ReactiveSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B77867B29C8372A006BB702 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		6B77867D29C8372A006BB702 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B77867F29C8372B006BB702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B77868229C8372B006BB702 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B77868A29C83773006BB702 /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
@@ -42,6 +49,12 @@
 		6B9510A729C98CFA0043554F /* APIListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIListView.swift; sourceTree = "<group>"; };
 		6B9510A929C9A8310043554F /* SampleAPIResponseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAPIResponseViewModel.swift; sourceTree = "<group>"; };
 		6B9510AB29C9A91D0043554F /* SampleAPIResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAPIResponseView.swift; sourceTree = "<group>"; };
+		6B9510B529CAB9260043554F /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		6B9510B829CABAD20043554F /* ReminderEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderEditingView.swift; sourceTree = "<group>"; };
+		6B9510BB29CABBED0043554F /* ReminderEditingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderEditingViewModel.swift; sourceTree = "<group>"; };
+		6B9510BD29CABC0B0043554F /* ReminderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewModel.swift; sourceTree = "<group>"; };
+		6B9510C029CABC540043554F /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
+		6B9510C229CAC1810043554F /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +62,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9510B429CAB8CC0043554F /* KeychainSwift in Frameworks */,
 				6B95109F29C97FF90043554F /* Moya in Frameworks */,
 				6B77868E29C8379E006BB702 /* ReactiveSwift in Frameworks */,
+				6B9510AF29CAB7EF0043554F /* Realm in Frameworks */,
+				6B9510B129CAB7EF0043554F /* RealmSwift in Frameworks */,
 				6B9510A129C97FF90043554F /* ReactiveMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,12 +77,13 @@
 		6B77866F29C8372A006BB702 = {
 			isa = PBXGroup;
 			children = (
+				6B77867A29C8372A006BB702 /* App */,
 				6B9510A229C9800B0043554F /* API */,
 				6B77869A29C843FD006BB702 /* View */,
 				6B77869329C84106006BB702 /* View Model */,
 				6B77869029C840E3006BB702 /* Model */,
 				6B77868929C83752006BB702 /* Extension */,
-				6B77867A29C8372A006BB702 /* App */,
+				6B9510BF29CABC400043554F /* Utility */,
 				6B77867929C8372A006BB702 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				6B77867B29C8372A006BB702 /* App.swift */,
-				6B77867D29C8372A006BB702 /* ContentView.swift */,
 				6B77867F29C8372B006BB702 /* Assets.xcassets */,
 				6B77868129C8372B006BB702 /* Preview Content */,
 			);
@@ -111,6 +127,7 @@
 			children = (
 				6B77869129C840F3006BB702 /* Article.swift */,
 				6B77869829C843A4006BB702 /* K.swift */,
+				6B9510B529CAB9260043554F /* Reminder.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -118,9 +135,9 @@
 		6B77869329C84106006BB702 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
-				6B77869629C841B4006BB702 /* ArticleListViewModel.swift */,
-				6B9510A529C9880C0043554F /* APIListViewModel.swift */,
-				6B9510A929C9A8310043554F /* SampleAPIResponseViewModel.swift */,
+				6B9510C629CAC4A30043554F /* Article */,
+				6B9510C729CAC4AC0043554F /* API */,
+				6B9510BA29CABBD90043554F /* Reminder */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -128,9 +145,9 @@
 		6B77869A29C843FD006BB702 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6B77869B29C8440A006BB702 /* ArticleListView.swift */,
-				6B9510A729C98CFA0043554F /* APIListView.swift */,
-				6B9510AB29C9A91D0043554F /* SampleAPIResponseView.swift */,
+				6B9510C429CAC48F0043554F /* Article */,
+				6B9510C529CAC4970043554F /* API */,
+				6B9510B729CABABE0043554F /* Reminder */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -139,6 +156,66 @@
 			isa = PBXGroup;
 			children = (
 				6B9510A329C980220043554F /* SampleAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B9510B729CABABE0043554F /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				6B9510B829CABAD20043554F /* ReminderEditingView.swift */,
+				6B9510C229CAC1810043554F /* ReminderListView.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		6B9510BA29CABBD90043554F /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				6B9510BB29CABBED0043554F /* ReminderEditingViewModel.swift */,
+				6B9510BD29CABC0B0043554F /* ReminderListViewModel.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		6B9510BF29CABC400043554F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6B9510C029CABC540043554F /* Encryption.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		6B9510C429CAC48F0043554F /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				6B77869B29C8440A006BB702 /* ArticleListView.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		6B9510C529CAC4970043554F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B9510A729C98CFA0043554F /* APIListView.swift */,
+				6B9510AB29C9A91D0043554F /* SampleAPIResponseView.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B9510C629CAC4A30043554F /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				6B77869629C841B4006BB702 /* ArticleListViewModel.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		6B9510C729CAC4AC0043554F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B9510A529C9880C0043554F /* APIListViewModel.swift */,
+				6B9510A929C9A8310043554F /* SampleAPIResponseViewModel.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -164,6 +241,9 @@
 				6B77868D29C8379E006BB702 /* ReactiveSwift */,
 				6B95109E29C97FF90043554F /* Moya */,
 				6B9510A029C97FF90043554F /* ReactiveMoya */,
+				6B9510AE29CAB7EF0043554F /* Realm */,
+				6B9510B029CAB7EF0043554F /* RealmSwift */,
+				6B9510B329CAB8CC0043554F /* KeychainSwift */,
 			);
 			productName = "QuickNews-ReactiveSwift";
 			productReference = 6B77867829C8372A006BB702 /* QuickNews-ReactiveSwift.app */;
@@ -196,6 +276,8 @@
 			packageReferences = (
 				6B77868C29C8379E006BB702 /* XCRemoteSwiftPackageReference "ReactiveSwift" */,
 				6B95109D29C97FF90043554F /* XCRemoteSwiftPackageReference "Moya" */,
+				6B9510AD29CAB7EE0043554F /* XCRemoteSwiftPackageReference "realm-swift" */,
+				6B9510B229CAB8CC0043554F /* XCRemoteSwiftPackageReference "keychain-swift" */,
 			);
 			productRefGroup = 6B77867929C8372A006BB702 /* Products */;
 			projectDirPath = "";
@@ -244,16 +326,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9510C329CAC1810043554F /* ReminderListView.swift in Sources */,
 				6B77869229C840F3006BB702 /* Article.swift in Sources */,
 				6B9510A829C98CFA0043554F /* APIListView.swift in Sources */,
 				6B77869929C843A4006BB702 /* K.swift in Sources */,
+				6B9510C129CABC540043554F /* Encryption.swift in Sources */,
 				6B77869729C841B4006BB702 /* ArticleListViewModel.swift in Sources */,
+				6B9510BE29CABC0B0043554F /* ReminderListViewModel.swift in Sources */,
 				6B9510AA29C9A8310043554F /* SampleAPIResponseViewModel.swift in Sources */,
 				6B9510A629C9880C0043554F /* APIListViewModel.swift in Sources */,
 				6B77869C29C8440A006BB702 /* ArticleListView.swift in Sources */,
-				6B77867E29C8372A006BB702 /* ContentView.swift in Sources */,
+				6B9510BC29CABBED0043554F /* ReminderEditingViewModel.swift in Sources */,
 				6B9510AC29C9A91D0043554F /* SampleAPIResponseView.swift in Sources */,
+				6B9510B629CAB9260043554F /* Reminder.swift in Sources */,
 				6B77868B29C83773006BB702 /* URLRequest+Extension.swift in Sources */,
+				6B9510B929CABAD20043554F /* ReminderEditingView.swift in Sources */,
 				6B9510A429C980220043554F /* SampleAPI.swift in Sources */,
 				6B77867C29C8372A006BB702 /* App.swift in Sources */,
 			);
@@ -475,6 +562,22 @@
 				version = 15.0.3;
 			};
 		};
+		6B9510AD29CAB7EE0043554F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.37.0;
+			};
+		};
+		6B9510B229CAB8CC0043554F /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 20.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -492,6 +595,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6B95109D29C97FF90043554F /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = ReactiveMoya;
+		};
+		6B9510AE29CAB7EF0043554F /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B9510AD29CAB7EE0043554F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		6B9510B029CAB7EF0043554F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B9510AD29CAB7EE0043554F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		6B9510B329CAB8CC0043554F /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B9510B229CAB8CC0043554F /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
