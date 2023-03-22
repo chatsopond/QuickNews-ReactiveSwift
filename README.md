@@ -4,18 +4,24 @@
 
 - [x] ReactiveSwift
 - [x] Moya
-- [ ] Realm
+- [x] Realm
 - [ ] Starscream
 - [ ] Anchorage
 
 ### Project Progress
 
+- [v1.2 - Realm Integration](https://github.com/chatsopond/QuickNews-ReactiveSwift/releases/tag/v1.2)
+  - Implement encrypted Realm integration in Reminder list view.
 - [v1.1 - Moya Integration](https://github.com/chatsopond/QuickNews-ReactiveSwift/releases/tag/v1.1)
-  - Implemented Moya framework to establish connection with SampleAPI, allowing retrieval of `now` and `randomInteger`
+  - Implemented Moya framework to establish connection with SampleAPI, allowing retrieval of `now` and `randomInteger`.
 - [v1.0 - ReactiveSwift Integration](https://github.com/chatsopond/QuickNews-ReactiveSwift/releases/tag/v1.0)
   - Incorporated ReactiveSwift for asynchronously fetching top headline news articles.
   
 ## Screeshots
+
+### [v1.2 - Realm Integration](https://github.com/chatsopond/QuickNews-ReactiveSwift/releases/tag/v1.2)
+
+<img width="331" src="https://user-images.githubusercontent.com/42887325/226818079-8890501f-5a4f-4d7f-84d0-8d273d87ebce.gif">
   
 ### [v1.1 - Moya Integration](https://github.com/chatsopond/QuickNews-ReactiveSwift/releases/tag/v1.1)
 
