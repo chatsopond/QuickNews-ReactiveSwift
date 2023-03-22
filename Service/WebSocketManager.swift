@@ -57,7 +57,30 @@ class WebSocketManager: WebSocketDelegate {
 
   /// Handles WebSocket events and delegates received messages to the delegate.
   func didReceive(event: WebSocketEvent, client: WebSocket) {
-    // ...
+    switch event {
+    case .connected(let headers):
+      print("WebSocket connected, headers: \(headers)")
+      // swiftlint:disable:next pattern_matching_keywords
+    case .disconnected(let reason, let code):
+      print("WebSocket disconnected, reason: \(reason), code: \(code)")
+    case .text(let text):
+      print("WebSocket received text: \(text)")
+      delegate?.receiveServerMessage(message: text)
+    case .binary(let data):
+      print("WebSocket received binary data: \(data)")
+    case .pong(let data):
+      print("WebSocket received Pong: \(data.debugDescription)")
+    case .ping(let data):
+      print("WebSocket received Ping: \(data.debugDescription)")
+    case .error(let error):
+      print("WebSocket encountered an error: \(error?.localizedDescription ?? "Unknown error")")
+    case .viabilityChanged(let isConnected):
+      print("WebSocket viability changed, isConnected: \(isConnected)")
+    case .reconnectSuggested(let shouldReconnect):
+      print("WebSocket reconnect suggested, shouldReconnect: \(shouldReconnect)")
+    case .cancelled:
+      print("WebSocket connection cancelled")
+    }
   }
 
   // MARK: - WebSocket Actions
