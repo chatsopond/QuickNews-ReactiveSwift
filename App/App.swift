@@ -12,7 +12,11 @@ import SwiftUI
 struct QuickNews_ReactiveSwiftApp: App {
   var body: some Scene {
     WindowGroup {
-      ReminderListView()
+      NavigationStack {
+        ChatBoxView()
+          .navigationTitle("Chatbox")
+          .navigationBarTitleDisplayMode(.inline)
+      }
     }
   }
 }
