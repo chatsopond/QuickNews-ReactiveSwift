@@ -6,7 +6,8 @@
 - [x] Moya
 - [x] Realm
 - [x] Starscream
-- [ ] Anchorage
+- [ ] ~~Anchorage~~
+  - Anchorage usage will move to [this project](https://github.com/chatsopond/Menu-UIKit)
 
 ### Project Progress
 
